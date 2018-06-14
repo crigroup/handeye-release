@@ -1,0 +1,16 @@
+ros-indigo-handeye (0.1.1-0trusty) trusty; urgency=high
+
+  * Fix np.linalg.lstsq bug
+  * Add installation rules for python node
+  * Contributors: fsuarez6
+
+ -- Francisco Suarez-Ruiz <fsuarez6@gmail.com>  Wed, 13 Jun 2018 16:00:00 -0000
+
+ros-indigo-handeye (0.1.0-0trusty) trusty; urgency=high
+
+  * Initial release
+  * Contributors: Francisco, fsuarez6
+
+ -- Francisco Suarez-Ruiz <fsuarez6@gmail.com>  Wed, 29 Nov 2017 16:00:00 -0000
+
+
