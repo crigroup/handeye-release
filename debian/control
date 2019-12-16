@@ -1,0 +1,12 @@
+Source: ros-melodic-handeye
+Section: misc
+Priority: optional
+Maintainer: Francisco Suarez-Ruiz <fsuarez6@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin, ros-melodic-geometry-msgs, ros-melodic-message-generation, ros-melodic-rostest, ros-melodic-std-msgs
+Homepage: http://wiki.ros.org/handeye
+Standards-Version: 3.9.2
+
+Package: ros-melodic-handeye
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python-enum34, python-matplotlib, python-numpy, python-scipy, ros-melodic-baldor, ros-melodic-criutils, ros-melodic-geometry-msgs, ros-melodic-message-runtime, ros-melodic-std-msgs
+Description: The handeye package
