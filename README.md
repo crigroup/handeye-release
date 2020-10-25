@@ -1,3 +1,26 @@
+## handeye (noetic) - 0.1.2-1
+
+The packages in the `handeye` repository were released into the `noetic` distro by running `/usr/bin/bloom-release --rosdistro noetic --track noetic handeye` on `Sun, 25 Oct 2020 04:54:50 -0000`
+
+The `handeye` package was released.
+
+Version of package(s) in repository `handeye`:
+
+- upstream repository: https://github.com/crigroup/handeye.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.1.2-1`
+
+Versions of tools used:
+
+- bloom version: `0.10.0`
+- catkin_pkg version: `0.4.23`
+- rosdep version: `0.19.0`
+- rosdistro version: `0.8.3`
+- vcstools version: `0.1.42`
+
+
 ## handeye (melodic) - 0.1.1-2
 
 The packages in the `handeye` repository were released into the `melodic` distro by running `/usr/bin/bloom-release --rosdistro melodic --track melodic handeye` on `Mon, 16 Dec 2019 09:38:53 -0000`
