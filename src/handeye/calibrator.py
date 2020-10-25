@@ -54,7 +54,7 @@ class HandEyeCalibrator(object):
       raise TypeError('Invalid setup type: {}'.format(type(setup)))
     self.reset()
     self.min_samples_required = 4
-    self.valid_cos = lambda (x): np.clip(x, -1., 1.)
+    self.valid_cos = lambda x: np.clip(x, -1., 1.)
 
   def add_sample(self, Q, Pinv):
     """
@@ -209,7 +209,7 @@ class HandEyeCalibrator(object):
     rot_errors = []
     trans_errors = []
     A,B = self.compute_motion_matrices()
-    for Ai, Bi in itertools.izip(A, B):
+    for Ai, Bi in zip(A, B):
       lT = np.dot(Ai, X)
       rT = np.dot(X, Bi)
       # Metric for rotation error
