@@ -1,0 +1,12 @@
+Source: ros-noetic-handeye
+Section: misc
+Priority: optional
+Maintainer: Francisco Suarez-Ruiz <fsuarez6@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin, ros-noetic-geometry-msgs, ros-noetic-message-generation, ros-noetic-rostest, ros-noetic-std-msgs
+Homepage: http://wiki.ros.org/handeye
+Standards-Version: 3.9.2
+
+Package: ros-noetic-handeye
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python3-matplotlib, python3-numpy, python3-scipy, ros-noetic-baldor, ros-noetic-criutils, ros-noetic-geometry-msgs, ros-noetic-message-runtime, ros-noetic-std-msgs
+Description: The handeye package

@@ -1,0 +1,24 @@
+ros-noetic-handeye (0.1.2-2buster) buster; urgency=high
+
+  * Add support for ROS noetic and clean up
+  * PR #4: Fix lambda syntax for Python 3 compatability
+  * Contributors: John Stechschulte, fsuarez6
+
+ -- Francisco Suarez-Ruiz <fsuarez6@gmail.com>  Sun, 25 Oct 2020 00:00:00 -0000
+
+ros-noetic-handeye (0.1.1-2buster) buster; urgency=high
+
+  * Fix np.linalg.lstsq bug
+  * Add installation rules for python node
+  * Contributors: fsuarez6
+
+ -- Francisco Suarez-Ruiz <fsuarez6@gmail.com>  Thu, 14 Jun 2018 00:00:00 -0000
+
+ros-noetic-handeye (0.1.0-2buster) buster; urgency=high
+
+  * Initial release
+  * Contributors: Francisco, fsuarez6
+
+ -- Francisco Suarez-Ruiz <fsuarez6@gmail.com>  Thu, 30 Nov 2017 00:00:00 -0000
+
+
