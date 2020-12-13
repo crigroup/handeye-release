@@ -1,3 +1,26 @@
+## handeye (noetic) - 0.1.2-2
+
+The packages in the `handeye` repository were released into the `noetic` distro by running `/usr/bin/bloom-release --rosdistro noetic --track noetic handeye` on `Sun, 13 Dec 2020 05:53:28 -0000`
+
+The `handeye` package was released.
+
+Version of package(s) in repository `handeye`:
+
+- upstream repository: https://github.com/crigroup/handeye.git
+- release repository: https://github.com/crigroup/handeye-release.git
+- rosdistro version: `0.1.2-1`
+- old version: `0.1.2-1`
+- new version: `0.1.2-2`
+
+Versions of tools used:
+
+- bloom version: `0.10.0`
+- catkin_pkg version: `0.4.23`
+- rosdep version: `0.19.0`
+- rosdistro version: `0.8.3`
+- vcstools version: `0.1.42`
+
+
 ## handeye (noetic) - 0.1.2-1
 
 The packages in the `handeye` repository were released into the `noetic` distro by running `/usr/bin/bloom-release --rosdistro noetic --track noetic handeye` on `Sun, 25 Oct 2020 04:54:50 -0000`
